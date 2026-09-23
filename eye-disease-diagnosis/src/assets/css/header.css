@@ -1,0 +1,197 @@
+
+/* 智能抽屉式侧边栏样式 */
+/* 智能抽屉式侧边栏样式 */
+.drawer-sidebar {
+  position: fixed;
+  top: 0;
+  left: -240px;
+  width: 240px;
+  height: 100%;
+  background: linear-gradient(to bottom, #1A2335 0%, #1A2335 100%);
+  opacity: 0.9;
+  backdrop-filter: blur(10px);
+  color: rgba(255, 255, 255, 0.92);
+  box-shadow: 2px 0 8px rgba(0, 0, 0, 0.2);
+  padding: 24px 0;
+  z-index: 100;
+  font-family: 'Inter', sans-serif;
+  transition: left 0.3s ease, box-shadow 0.3s ease;
+}
+
+.drawer-open {
+  left: 0;
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.3);
+}
+
+.drawer-content {
+  height: 100%;
+  overflow-y: auto;
+}
+
+/* 抽屉控制按钮样式 */
+.drawer-toggle {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.3s ease;
+}
+
+.drawer-toggle:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.toggle-icon {
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  transform: rotate(-45deg);
+}
+
+/* 侧边栏内容样式 */
+.drawer-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.drawer-nav li {
+  margin-bottom: 12px;
+}
+
+.drawer-nav a {
+  display: flex;
+  align-items: center;
+  padding: 14px 24px;
+  margin: 4px 12px;
+  color: rgba(255, 255, 255, 0.92);
+  text-decoration: none;
+  transition: transform 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  border-radius: 6px;
+  position: relative;
+}
+
+.drawer-nav a::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  width: 3px;
+  height: 0%;
+  background: #4FD1C5;
+  transition: height 0.3s ease;
+}
+
+.drawer-nav a:hover {
+  transform: translateX(8px);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.drawer-nav a:hover::before {
+  height: 60%;
+}
+
+/* 用户头像和下拉菜单样式 */
+.user-profile {
+  position: relative;
+  margin-top: 20px;
+  text-align: center;
+  cursor: pointer;
+  padding: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.avatar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+  border: 2px solid #4FD1C5;
+  transition: transform 0.3s ease;
+}
+
+.avatar:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 15px rgba(79, 209, 197, 0.3);
+}
+
+.user-role-text {
+  font-size: 0.9rem;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  right: 24px;
+  background: rgb(110 126 158 / 98%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  padding: 16px;
+  width: 200px;
+  z-index: 1000;
+  margin-top: 12px;
+  transform: translateX(0);
+}
+
+.user-info {
+  padding: 8px;
+  color: #333;
+  cursor: pointer;
+  transition: background 0.2s ease;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.user-info:hover {
+  background: rgba(79, 209, 197, 0.1);
+}
+
+.logout {
+  padding: 8px;
+  color: #333;
+  cursor: pointer;
+}
+
+.logout:hover {
+  color: #e74c3c;
+}
+
+/* 响应式优化 */
+@media (max-width: 768px) {
+  .drawer-sidebar {
+    width: 72px;
+  }
+
+  .user-role-text {
+    display: none;
+  }
+
+  .drawer-nav a {
+    justify-content: center;
+  }
+
+  .drawer-nav a::before {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

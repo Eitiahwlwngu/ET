@@ -1,0 +1,136 @@
+/* 未来展望页面样式 */
+.vision {
+  padding: 2rem 0;
+  background-color: #f8f9fa;
+}
+
+.vision-content {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 0 1rem;
+}
+
+.vision-section {
+  background-color: white;
+  border-radius: 8px;
+  padding: 2.5rem; /* 增加内边距 */
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.vision-section h3 {
+  color: #3498db;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid #eee;
+  font-size: 1.8rem; /* 进一步增大标题字体 */
+  font-weight: 600;
+}
+
+.vision-item {
+  margin-bottom: 2.5rem;
+}
+
+.vision-item h4 {
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-weight: 600;
+  font-size: 1.4rem; /* 进一步增大子标题字体 */
+}
+
+.vision-item ul {
+  margin-left: 2rem;
+  margin-top: 1rem;
+  padding-left: 0.5rem;
+}
+
+.vision-item li {
+  margin-bottom: 1rem;
+  position: relative;
+  padding-left: 2rem; /* 增加列表项左侧间距 */
+  font-size: 1.15rem; /* 进一步增大正文字体 */
+  line-height: 1.7; /* 增加行间距 */
+}
+
+.vision-item li:before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: #3498db;
+  font-size: 1.3rem; /* 增大列表圆点 */
+}
+
+.challenge-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1.5rem;
+}
+
+.challenge-table th,
+.challenge-table td {
+  padding: 1.2rem;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  font-size: 1.1rem; /* 增大表格字体 */
+}
+
+.challenge-table th {
+  background-color: #f2f6fc;
+  color: #2c3e50;
+}
+
+.challenge-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.summary-text {
+  line-height: 1.8;
+  color: #555;
+  font-size: 1.15rem;
+}
+
+/* 响应式设计 */
+@media (max-width: 1200px) {
+  .vision-section {
+    padding: 2rem;
+  }
+  
+  .vision-section h3 {
+    font-size: 1.6rem;
+  }
+  
+  .vision-item h4 {
+    font-size: 1.3rem;
+  }
+  
+  .vision-item li {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .vision-content {
+    padding: 0 0.5rem;
+  }
+  
+  .vision-section {
+    padding: 1.5rem;
+  }
+  
+  .vision-section h3 {
+    font-size: 1.4rem;
+  }
+  
+  .vision-item h4 {
+    font-size: 1.2rem;
+  }
+  
+  .vision-item ul {
+    margin-left: 1.5rem;
+  }
+  
+  .vision-item li {
+    font-size: 1.05rem;
+    padding-left: 1.8rem;
+  }
+}

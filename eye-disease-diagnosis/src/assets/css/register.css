@@ -1,0 +1,220 @@
+/* 注册页面的样式 */
+.auth-page {
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  .auth-illustration {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+  }
+  
+  .auth-form-container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  
+  .auth-card {
+    width: 100%;
+    max-width: 450px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+  }
+  
+  .auth-header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .auth-header h1 {
+    color: #3A6FAC;
+    margin-bottom: 10px;
+  }
+  
+  .auth-header p {
+    color: #6c757d;
+    font-size: 14px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    position: relative;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .password-toggle {
+    display: flex;
+    align-items: center;
+  }
+  
+  .password-toggle-button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #6c757d;
+  }
+  
+  .captcha-container {
+    display: flex;
+  }
+  
+  .captcha-input {
+    flex: 1;
+    margin-right: 10px;
+  }
+  
+  .captcha-image {
+    width: 100px;
+    height: 46px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f8f9fa;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .btn {
+    width: 100%;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .btn-primary {
+    background-color: #3A6FAC;
+    color: white;
+  }
+  
+  .btn-primary:disabled {
+    background-color: #adb5bd;
+    cursor: not-allowed;
+  }
+  
+  .auth-footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #6c757d;
+    font-size: 14px;
+  }
+  
+  .auth-footer a {
+    color: #3A6FAC;
+    text-decoration: none;
+  }
+  
+  .error-message {
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    color: #dc3545;
+    font-size: 12px;
+    display: none;
+  }
+  
+  .error-message.visible {
+    display: block;
+  }
+  
+  .loading-spinner {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ced4da;
+    border-top: 2px solid #3A6FAC;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .checkmark {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3A6FAC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    transform: scale(0);
+    transition: transform 0.3s ease;
+  }
+  
+  .checkmark.visible {
+    transform: scale(1);
+  }
+  
+  .checkmark::after {
+    content: '✓';
+    color: white;
+    font-size: 24px;
+  }
+  
+  .low-vision-mode {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    z-index: 1000;
+  }
+  
+  .password-strength {
+    height: 4px;
+    background-color: #e9ecef;
+    border-radius: 2px;
+    margin-top: 10px;
+  }
+  
+  .strength-bar {
+    height: 100%;
+    border-radius: 2px;
+    background-color: #adb5bd;
+    width: 0%;
+    transition: width 0.3s ease;
+  }
+  
+  .strength-1 {
+    background-color: #dc3545;
+  }
+  
+  .strength-2 {
+    background-color: #ffc107;
+  }
+  
+  .strength-3 {
+    background-color: #28a745;
+  }
+  
+  .strength-4 {
+    background-color: #17a2b8;
+  }

@@ -1,0 +1,290 @@
+/* 用户信息页面样式 */
+.user-profile-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.profile-header {
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.header-bg {
+  height: 200px;
+  background: linear-gradient(135deg, #3a6ec8 0%, #5a8de6 100%);
+  border-radius: 0 0 30px 30px;
+}
+
+.profile-summary {
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 20px;
+}
+
+.avatar-wrapper {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  border: 4px solid white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.user-avatar {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.avatar-edit {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #3a6ec8;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.avatar-edit:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 12px rgba(58, 110, 200, 0.3);
+}
+
+.user-name {
+  margin: 20px 0 5px;
+  font-size: 28px;
+  color: #2a2a2a;
+}
+
+.user-title {
+  color: #666;
+  font-size: 16px;
+}
+
+.stats-section {
+  display: flex;
+  gap: 40px;
+  background: white;
+  padding: 25px 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-value {
+  font-size: 24px;
+  font-weight: 600;
+  color: #3a6ec8;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  color: #888;
+  font-size: 14px;
+}
+
+.profile-main {
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  gap: 30px;
+  padding-bottom: 50px;
+}
+
+.info-card {
+  background: white;
+  border-radius: 20px;
+  padding: 25px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+  margin-bottom: 25px;
+}
+
+.contact-card .card-title {
+  color: #3a6ec8;
+  margin-bottom: 20px;
+}
+
+.contact-list li {
+  display: flex;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #eee;
+  color: #555;
+}
+
+.contact-list li i {
+  width: 25px;
+  color: #888;
+  margin-right: 15px;
+}
+
+.verified-badge {
+  background: #e8f5e9;
+  color: #4caf50;
+  padding: 3px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+  margin-left: 10px;
+}
+
+.expertise-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.expertise-tag {
+  background: #f0f4ff;
+  color: #3a6ec8;
+  padding: 6px 15px;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.main-info .card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.main-info h2 {
+  color: #2a2a2a;
+  font-size: 20px;
+}
+
+.edit-button {
+  background: #f0f4ff;
+  color: #3a6ec8;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.edit-button:hover {
+  background: #e1e8ff;
+}
+
+.info-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  margin-bottom: 25px;
+}
+
+.info-item label {
+  display: block;
+  color: #888;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.info-value {
+  color: #444;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.bio-section {
+  border-top: 1px solid #eee;
+  padding-top: 25px;
+}
+
+.bio-section h4 {
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.bio-content {
+  color: #666;
+  line-height: 1.8;
+}
+
+.security-card .card-title {
+  color: #3a6ec8;
+  margin-bottom: 20px;
+}
+
+.security-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #f8faff;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.security-info {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.security-info i {
+  font-size: 20px;
+  color: #3a6ec8;
+}
+
+.security-title {
+  font-weight: 500;
+  color: #444;
+}
+
+.security-desc {
+  color: #888;
+  font-size: 14px;
+}
+
+.security-action {
+  background: #3a6ec8;
+  color: white;
+  border: none;
+  padding: 8px 25px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.security-action:hover {
+  background: #2d5aa8;
+}
+
+@media (max-width: 768px) {
+  .profile-main {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-summary {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .stats-section {
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+  .info-row {
+    grid-template-columns: 1fr;
+  }
+}
