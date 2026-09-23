@@ -1,6 +1,4 @@
-# 基于眼底医学影像的眼科疾病智能诊断系统
-> 团队：A07 胜利在望 | 团队编号：T2406439 | 合作方：诚迈科技（南京）股份有限公司
-> English Name：*Ophthalmic Disease Intelligent Diagnosis System Based on Fundus Medical Images*
+# 基于MaxVit的眼科疾病智能诊断系统
 
 [![GitHub stars](https://img.shields.io/badge/python-3.10-blue.svg)](https://www.python.org/)
 [![pytorch](https://img.shields.io/badge/PyTorch-2.3.1-orange)](https://pytorch.org/)
