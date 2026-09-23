@@ -1,0 +1,71 @@
+Using device: cuda
+Train images: 3500
+Valid images: 500
+Epoch [1/500] (Train Loss: 0.3406 | Valid Loss: 0.3148 | Kappa: 0.1057 | F1-score: 0.8618 | AUC: 0.8339)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [2/500] (Train Loss: 0.3054 | Valid Loss: 0.2960 | Kappa: 0.2904 | F1-score: 0.8642 | AUC: 0.8643)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [3/500] (Train Loss: 0.2848 | Valid Loss: 0.2976 | Kappa: 0.3455 | F1-score: 0.8585 | AUC: 0.8667)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [4/500] (Train Loss: 0.2798 | Valid Loss: 0.2771 | Kappa: 0.2768 | F1-score: 0.8725 | AUC: 0.8877)
+Epoch [5/500] (Train Loss: 0.2622 | Valid Loss: 0.2839 | Kappa: 0.4401 | F1-score: 0.8750 | AUC: 0.8864)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [6/500] (Train Loss: 0.2559 | Valid Loss: 0.2727 | Kappa: 0.4317 | F1-score: 0.8772 | AUC: 0.8885)
+Epoch [7/500] (Train Loss: 0.2464 | Valid Loss: 0.2650 | Kappa: 0.4556 | F1-score: 0.8800 | AUC: 0.8960)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [8/500] (Train Loss: 0.2419 | Valid Loss: 0.2859 | Kappa: 0.4452 | F1-score: 0.8752 | AUC: 0.8851)
+Epoch [9/500] (Train Loss: 0.2354 | Valid Loss: 0.2743 | Kappa: 0.4141 | F1-score: 0.8785 | AUC: 0.8958)
+Epoch [10/500] (Train Loss: 0.2245 | Valid Loss: 0.2763 | Kappa: 0.4945 | F1-score: 0.8850 | AUC: 0.8956)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [11/500] (Train Loss: 0.2221 | Valid Loss: 0.2800 | Kappa: 0.4652 | F1-score: 0.8798 | AUC: 0.9009)
+Epoch [12/500] (Train Loss: 0.2191 | Valid Loss: 0.2680 | Kappa: 0.4712 | F1-score: 0.8825 | AUC: 0.8955)
+Epoch [13/500] (Train Loss: 0.2115 | Valid Loss: 0.2766 | Kappa: 0.4703 | F1-score: 0.8825 | AUC: 0.9037)
+Epoch [14/500] (Train Loss: 0.2036 | Valid Loss: 0.2712 | Kappa: 0.5101 | F1-score: 0.8868 | AUC: 0.9013)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [15/500] (Train Loss: 0.1993 | Valid Loss: 0.2850 | Kappa: 0.5231 | F1-score: 0.8908 | AUC: 0.9023)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [16/500] (Train Loss: 0.1908 | Valid Loss: 0.2812 | Kappa: 0.5072 | F1-score: 0.8862 | AUC: 0.9022)
+Epoch [17/500] (Train Loss: 0.1850 | Valid Loss: 0.2933 | Kappa: 0.5219 | F1-score: 0.8858 | AUC: 0.9004)
+Epoch [18/500] (Train Loss: 0.1797 | Valid Loss: 0.2980 | Kappa: 0.4699 | F1-score: 0.8772 | AUC: 0.8963)
+Epoch [19/500] (Train Loss: 0.1800 | Valid Loss: 0.2798 | Kappa: 0.4938 | F1-score: 0.8845 | AUC: 0.9024)
+Epoch [20/500] (Train Loss: 0.1694 | Valid Loss: 0.2826 | Kappa: 0.5151 | F1-score: 0.8885 | AUC: 0.9009)
+Epoch [21/500] (Train Loss: 0.1659 | Valid Loss: 0.3155 | Kappa: 0.5225 | F1-score: 0.8872 | AUC: 0.8948)
+Epoch [22/500] (Train Loss: 0.1625 | Valid Loss: 0.3009 | Kappa: 0.4794 | F1-score: 0.8790 | AUC: 0.8889)
+Epoch [23/500] (Train Loss: 0.1553 | Valid Loss: 0.3247 | Kappa: 0.4856 | F1-score: 0.8812 | AUC: 0.8885)
+Epoch [24/500] (Train Loss: 0.1519 | Valid Loss: 0.3108 | Kappa: 0.4763 | F1-score: 0.8805 | AUC: 0.8930)
+Epoch [25/500] (Train Loss: 0.1469 | Valid Loss: 0.3679 | Kappa: 0.4897 | F1-score: 0.8782 | AUC: 0.8788)
+Epoch [26/500] (Train Loss: 0.1353 | Valid Loss: 0.3635 | Kappa: 0.5441 | F1-score: 0.8905 | AUC: 0.8939)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [27/500] (Train Loss: 0.1303 | Valid Loss: 0.3270 | Kappa: 0.5190 | F1-score: 0.8860 | AUC: 0.8975)
+Epoch [28/500] (Train Loss: 0.1261 | Valid Loss: 0.3833 | Kappa: 0.4905 | F1-score: 0.8760 | AUC: 0.8821)
+Epoch [29/500] (Train Loss: 0.1213 | Valid Loss: 0.3415 | Kappa: 0.5046 | F1-score: 0.8845 | AUC: 0.8892)
+Epoch [30/500] (Train Loss: 0.1181 | Valid Loss: 0.3619 | Kappa: 0.5171 | F1-score: 0.8835 | AUC: 0.8911)
+Epoch [31/500] (Train Loss: 0.1111 | Valid Loss: 0.3540 | Kappa: 0.5352 | F1-score: 0.8895 | AUC: 0.8932)
+Epoch [32/500] (Train Loss: 0.1013 | Valid Loss: 0.4171 | Kappa: 0.5070 | F1-score: 0.8835 | AUC: 0.8880)
+Epoch [33/500] (Train Loss: 0.1024 | Valid Loss: 0.3985 | Kappa: 0.4945 | F1-score: 0.8800 | AUC: 0.8791)
+Epoch [34/500] (Train Loss: 0.0896 | Valid Loss: 0.4343 | Kappa: 0.5000 | F1-score: 0.8785 | AUC: 0.8843)
+Epoch [35/500] (Train Loss: 0.0889 | Valid Loss: 0.4313 | Kappa: 0.5110 | F1-score: 0.8810 | AUC: 0.8886)
+Epoch [36/500] (Train Loss: 0.0899 | Valid Loss: 0.3781 | Kappa: 0.5052 | F1-score: 0.8812 | AUC: 0.8745)
+Epoch [37/500] (Train Loss: 0.0852 | Valid Loss: 0.4244 | Kappa: 0.5521 | F1-score: 0.8908 | AUC: 0.8962)
+  ==> Found new best valid loss. Model checkpoint saved!
+
+Epoch [38/500] (Train Loss: 0.0808 | Valid Loss: 0.4541 | Kappa: 0.5134 | F1-score: 0.8845 | AUC: 0.8888)
+Epoch [39/500] (Train Loss: 0.0772 | Valid Loss: 0.4296 | Kappa: 0.5302 | F1-score: 0.8872 | AUC: 0.8882)
+Epoch [40/500] (Train Loss: 0.0775 | Valid Loss: 0.5198 | Kappa: 0.4878 | F1-score: 0.8772 | AUC: 0.8498)
+Epoch [41/500] (Train Loss: 0.0700 | Valid Loss: 0.4629 | Kappa: 0.5212 | F1-score: 0.8852 | AUC: 0.8758)
+Epoch [42/500] (Train Loss: 0.0625 | Valid Loss: 0.5882 | Kappa: 0.5033 | F1-score: 0.8768 | AUC: 0.8735)
+Epoch [43/500] (Train Loss: 0.0716 | Valid Loss: 0.4676 | Kappa: 0.5143 | F1-score: 0.8835 | AUC: 0.8773)
+Epoch [44/500] (Train Loss: 0.0636 | Valid Loss: 0.5004 | Kappa: 0.5192 | F1-score: 0.8832 | AUC: 0.8791)
+Epoch [45/500] (Train Loss: 0.0611 | Valid Loss: 0.4869 | Kappa: 0.4932 | F1-score: 0.8792 | AUC: 0.8730)
+Epoch [46/500] (Train Loss: 0.0546 | Valid Loss: 0.5254 | Kappa: 0.5154 | F1-score: 0.8860 | AUC: 0.8759)
+Epoch [47/500] (Train Loss: 0.0586 | Valid Loss: 0.5195 | Kappa: 0.5080 | F1-score: 0.8820 | AUC: 0.8829)
+Epoch [48/500] (Train Loss: 0.0587 | Valid Loss: 0.5083 | Kappa: 0.5000 | F1-score: 0.8815 | AUC: 0.8756)
+Epoch [49/500] (Train Loss: 0.0551 | Valid Loss: 0.4695 | Kappa: 0.5115 | F1-score: 0.8825 | AUC: 0.8830)
+Epoch [50/500] (Train Loss: 0.0578 | Valid Loss: 0.4717 | Kappa: 0.5323 | F1-score: 0.8880 | AUC: 0.8799)
+Epoch [51/500] (Train Loss: 0.0494 | Valid Loss: 0.5340 | Kappa: 0.5056 | F1-score: 0.8795 | AUC: 0.8681)
+Epoch [52/500] (Train Loss: 0.0471 | Valid Loss: 0.5266 | Kappa: 0.5128 | F1-score: 0.8838 | AUC: 0.8797)
+Epoch [53/500] (Train Loss: 0.0441 | Valid Loss: 0.5710 | Kappa: 0.5213 | F1-score: 0.8838 | AUC: 0.8768)
+Epoch [54/500] (Train Loss: 0.0497 | Valid Loss: 0.5865 | Kappa: 0.5079 | F1-score: 0.8785 | AUC: 0.8806)
+Epoch [55/500] (Train Loss: 0.0416 | Valid Loss: 0.5444 | Kappa: 0.5060 | F1-score: 0.8810 | AUC: 0.8773)
+Epoch [56/500] (Train Loss: 0.0379 | Valid Loss: 0.5968 | Kappa: 0.5192 | F1-score: 0.8842 | AUC: 0.8784)
+

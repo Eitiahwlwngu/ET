@@ -1,0 +1,36 @@
+
+Using device: cuda
+Train images: 3500
+Valid images: 500
+/root/miniconda3/lib/python3.12/site-packages/torch/functional.py:512: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at ../aten/src/ATen/native/TensorShape.cpp:3587.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Epoch [1/100] (Train Loss: 0.3816 | Valid Loss: 0.3309 | Kappa: 0.0000 | F1-score: 0.8530 | AUC: 0.8305)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [2/100] (Train Loss: 0.3128 | Valid Loss: 0.3019 | Kappa: 0.2669 | F1-score: 0.8630 | AUC: 0.8597)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [3/100] (Train Loss: 0.2822 | Valid Loss: 0.2807 | Kappa: 0.3793 | F1-score: 0.8715 | AUC: 0.8834)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [4/100] (Train Loss: 0.2593 | Valid Loss: 0.2684 | Kappa: 0.3890 | F1-score: 0.8712 | AUC: 0.8934)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [5/100] (Train Loss: 0.2389 | Valid Loss: 0.2572 | Kappa: 0.4899 | F1-score: 0.8845 | AUC: 0.9067)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [6/100] (Train Loss: 0.2246 | Valid Loss: 0.2600 | Kappa: 0.5122 | F1-score: 0.8878 | AUC: 0.9043)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [7/100] (Train Loss: 0.2149 | Valid Loss: 0.2570 | Kappa: 0.5224 | F1-score: 0.8898 | AUC: 0.9068)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [8/100] (Train Loss: 0.2015 | Valid Loss: 0.2488 | Kappa: 0.5128 | F1-score: 0.8888 | AUC: 0.9127)
+Epoch [9/100] (Train Loss: 0.1895 | Valid Loss: 0.2429 | Kappa: 0.5546 | F1-score: 0.8960 | AUC: 0.9167)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [10/100] (Train Loss: 0.1832 | Valid Loss: 0.2497 | Kappa: 0.5671 | F1-score: 0.8980 | AUC: 0.9151)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [11/100] (Train Loss: 0.1741 | Valid Loss: 0.2402 | Kappa: 0.5882 | F1-score: 0.9018 | AUC: 0.9204)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [12/100] (Train Loss: 0.1626 | Valid Loss: 0.2452 | Kappa: 0.6030 | F1-score: 0.9062 | AUC: 0.9239)
+  ==> Found new best valid loss. Model checkpoint saved!
+Epoch [13/100] (Train Loss: 0.1574 | Valid Loss: 0.2577 | Kappa: 0.5401 | F1-score: 0.8912 | AUC: 0.9160)
+Epoch [14/100] (Train Loss: 0.1484 | Valid Loss: 0.2568 | Kappa: 0.5721 | F1-score: 0.8992 | AUC: 0.9209)
+Epoch [15/100] (Train Loss: 0.1399 | Valid Loss: 0.2621 | Kappa: 0.5636 | F1-score: 0.8975 | AUC: 0.9179)
+Epoch [16/100] (Train Loss: 0.1335 | Valid Loss: 0.2958 | Kappa: 0.5613 | F1-score: 0.8940 | AUC: 0.9046)
+Epoch [17/100] (Train Loss: 0.1285 | Valid Loss: 0.2784 | Kappa: 0.5384 | F1-score: 0.8878 | AUC: 0.9105)
+Epoch [18/100] (Train Loss: 0.1199 | Valid Loss: 0.2685 | Kappa: 0.5822 | F1-score: 0.8995 | AUC: 0.9200)
+
